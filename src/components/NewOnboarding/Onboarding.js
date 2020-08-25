@@ -17,7 +17,7 @@ export default class Onboarding extends Component {
                     id: 0,
                     title: "Sin registro",
                     image: "images/Maps_sinRegistro.svg",
-                    text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo contagio y aquellas a evitar para mantener a salvo." ,
+                    text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo de contagio y aquellas a evitar para mantener a salvo." ,
                     button: "Siguiente"
                 },
                 {
@@ -32,7 +32,7 @@ export default class Onboarding extends Component {
                   id: 0,
                   title: "Sin registro",
                   image: "images/Maps_sinRegistro.svg",
-                  text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo contagio y aquellas que es mejor evitar para mantener a salvo." ,
+                  text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo de contagio y aquellas que es mejor evitar para mantener a salvo." ,
                   button: "Siguiente" 
                 },
       
