@@ -7,7 +7,7 @@ import Button from '../Button/Button';
 
 const ButtonSearchContainer = styled.div`
         width:100%;
-        padding: 20px 22% 0px 22%;
+        padding: 20px 30% 0px 30%;
         height: 120px;
         background-color: #FAFBFC;
         box-shadow: 0px 4px 4px rgba(0, 82, 204, 0.2);

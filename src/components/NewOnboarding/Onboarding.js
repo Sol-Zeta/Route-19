@@ -17,14 +17,14 @@ export default class Onboarding extends Component {
                     id: 0,
                     title: "Sin registro",
                     image: "images/Maps_sinRegistro.svg",
-                    text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo de contagio y aquellas a evitar para mantener a salvo." ,
+                    text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo de contagio y aquellas a evitar para mantener a otras personas a salvo." ,
                     button: "Siguiente"
                 },
                 {
                     id: 1,
                     title: "Con registro",
                     image: "images/Maps_conRegistro.svg",
-                    text: "Podrás buscar cómo llegar a tu destino caminando por calles con menor tránsito de personas." ,
+                    text: "Podrás buscar cómo llegar a tu destino caminando por calles con menor riesgo de contagio de COVID-19." ,
                     button: "Comenzar"
                 }],
 
@@ -32,7 +32,7 @@ export default class Onboarding extends Component {
                   id: 0,
                   title: "Sin registro",
                   image: "images/Maps_sinRegistro.svg",
-                  text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo de contagio y aquellas que es mejor evitar para mantener a salvo." ,
+                  text: "Podrás acceder al mapa y visualizar las zonas de alto riesgo de contagio y aquellas que es mejor evitar para mantener a otras personas a salvo." ,
                   button: "Siguiente" 
                 },
       

@@ -23,16 +23,13 @@ class GeoPopup extends Component {
         <Modal isOpen={this.state.modalIsOpen} aria-labelledby="contained-modal-title-vcenter" centered>
         <ModalHeader toggle={this.toggleModal.bind(this)}>Geolocalización</ModalHeader>
         <ModalBody className="geo-modal" >
-        <p className="modal-geo-firstsentence">
-        Para poder poder utilizar esta aplicación <b>es necesario que actives  tu geolocalización.</b>
-        </p>
-        <p className="modal-geo-lastsentence">
-          Muchas gracias por tu confianza.
-        </p>
         <div className="modal-image-geo">
         <img className="imagen-geo" alt="imagen" src={'images/geo.svg'}></img>
         </div>
-
+        <p className="modal-geo-text">
+        Para poder utilizar esta aplicación <b>es necesario que actives  tu geolocalización.</b><br/>
+        Muchas gracias por tu confianza.
+        </p>
         </ModalBody>
         <ModalFooter>
         <Button action={this.props.getPosition} text={'Entendido, activar'} />

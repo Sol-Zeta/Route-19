@@ -125,7 +125,7 @@ class InputDestiny extends Component {
  
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'Buscar destino',
+      placeholder: 'Introduce una dirección',
       value,
       onChange: this.onChange
     };

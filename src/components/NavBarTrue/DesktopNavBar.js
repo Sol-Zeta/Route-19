@@ -92,8 +92,7 @@ const DesktopNavBar = (props) => {
     return (
         <div>   
             <MyDesktopNavBar>
-                <img src="./images/logo.svg" alt="logo" className="logo" />
-                {}
+                <img src="./images/logo.svg" alt="logo" className="logo"/>
                     {/* <NavLinksDesktop /> */}
                 <MyMobileNavButton displayMobileNavBar = {props.displayMobileNavBar} onClick = {props.toggleMobileNavBar}>
                     <img src={MovileNavIcon} alt="Menu" />
