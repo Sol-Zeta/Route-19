@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import MapContainer from './components/MapContainer/MapContainer.js'
 import './components/MapContainer/MapContainer.css'
@@ -10,11 +10,13 @@ import { createBrowserHistory } from 'history';
 // import auth from './auth.ts'; // Sample authentication provider
 
 
-// ReactGA.set({
-//   userId: auth.currentUserId(),
-//   // any data that is relevant to the user session
-//   // that you would like to track with google analytics
-// })
+  const trackingId = "200586696"; // Replace with your Google Analytics tracking ID
+  ReactGA.initialize(trackingId, {debug: true});
+  // ReactGA.set({
+  //   userId: auth.currentUserId(),
+  //   // any data that is relevant to the user session
+  //   // that you would like to track with google analytics
+  // })
 
 
 // const history = createBrowserHistory();
@@ -27,13 +29,6 @@ import { createBrowserHistory } from 'history';
 
 
 export default function App() {
-
-  // const trackingId = "200586696"; // Replace with your Google Analytics tracking ID
-  useEffect(() => {
-    ReactGA.initialize('200586696');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, [])
-
   
     return (
       <div className="App">
